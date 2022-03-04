@@ -6,13 +6,15 @@ Explain under which circumstances *Tight Class Cohesion* (TCC) and *Loose Class 
 
 TCC et LCC produise la même valeur lorsque toute les méthodes sont connectées, c'est à dire que toutes les méthodes de la classe utilise les mémes variables.
 
-  `class Name {
+  ```
+  class Name {
       String name;
       public String getName(String name)
       {
           this.name = name;
           return name;
       }
-  }`
+  }
+  ```
 
 LCC est forcément supérieur ou égale à TCC, parce que dans le meilleur des cas LCC n'a pas de noeuds indirect mais possède le même nombre de noeuds direct que TCC.
