@@ -25,11 +25,6 @@ Use your rule with different projects and describe you findings below. See the [
 
 Nous avons écrit la règle suivante : 
     
-    ```
-    //BlockStatement
-            [
-               count(//IfStatement)>=3
-            ]
-    ```
+    ```//BlockStatement//IfStatement//IfStatement//IfStatement```
 
 Nous avons testé sur le programme Apache Commons Lang et nous trouvons beaucoup de if imbriqué plus de 3 fois !
