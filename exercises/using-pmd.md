@@ -34,6 +34,6 @@ As for a false positive we have this error :
 
 `ThreadUtilsTest.java:20:	TooManyStaticImports:	Too many static imports may lead to messy code`
 
-which warns the user that there is a lot of import and that it may not be readable. This is a minor problem because it would not prevent compilation and just inders readability therefore, does not need to be fixed. There is also a lot of false positive that say that there are useless parenthesis.
+which warns the user that there is a lot of import and that it may not be readable. This is a minor problem because it would not prevent compilation and just hinders readability therefore, does not need to be fixed. There is also a lot of false positive that say that there are useless parenthesis.
 
 `StringEscapeUtilsTest.java:141:	UselessParentheses:	Useless parentheses.`
