@@ -29,6 +29,6 @@ Nous avons écrit la règle suivante :
     //BlockStatement//IfStatement//IfStatement//IfStatement
     ```
 
-![img pmd designer](https://github.com/nathan-chb/VV-ISTIC-TP2/pmd_designer.png)
+![img pmd designer](https://github.com/nathan-chb/VV-ISTIC-TP2/pmd_designer.png?raw=true)
 
 Nous avons testé sur le programme Apache Commons Lang et nous trouvons beaucoup de if imbriqué plus de 3 fois !
