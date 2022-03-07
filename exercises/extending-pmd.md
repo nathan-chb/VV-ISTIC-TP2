@@ -25,6 +25,10 @@ Use your rule with different projects and describe you findings below. See the [
 
 Nous avons écrit la règle suivante : 
     
-    ```//BlockStatement//IfStatement//IfStatement//IfStatement```
+    ```
+    //BlockStatement//IfStatement//IfStatement//IfStatement
+    ```
+
+![img pmd designer](https://github.com/nathan-chb/VV-ISTIC-TP2/images/pmd_designer.png)
 
 Nous avons testé sur le programme Apache Commons Lang et nous trouvons beaucoup de if imbriqué plus de 3 fois !
