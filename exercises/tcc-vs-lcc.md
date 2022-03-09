@@ -4,7 +4,7 @@ Explain under which circumstances *Tight Class Cohesion* (TCC) and *Loose Class 
 
 ## Answer
 
-TCC et LCC produise la même valeur lorsque toute les méthodes sont connectées, c'est à dire que toutes les méthodes de la classe utilise les mémes variables (il ne faut pas de noeud indirect).
+TCC et LCC produisent la même valeur lorsque toutes les méthodes sont connectées, c'est à dire que toutes les méthodes de la classe utilise les mémes variables (il ne faut pas de noeud indirect).
 
   ```
   class Name {

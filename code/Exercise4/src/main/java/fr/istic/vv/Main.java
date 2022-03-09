@@ -28,9 +28,14 @@ public class Main {
         }
 
         SourceRoot root = new SourceRoot(file.toPath());
-        PublicElementsPrinter printer = new PublicElementsPrinter();
+        PublicGetterPrinter printer = new PublicGetterPrinter();
         root.parse("", (localPath, absolutePath, result) -> {
             result.ifSuccessful(unit -> unit.accept(printer, null));
+            try {
+                printer.export();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
             return SourceRoot.Callback.Result.DONT_SAVE;
         });
     }
